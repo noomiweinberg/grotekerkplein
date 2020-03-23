@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>IPAP</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+<ul>
+    <div class="navbar">
+        <li><a class="active">IPAP</a></li>
+        <li><a class="beloning">Beloning</a></li>
+        <li><a class="delen">Delen</a></li>
+        <li><a class="contact">Contact</a></li>
+    </div>
+</ul>
+
+<h1>IPAP</h1>
+
+<h2>Interactief Pratende Afval Paal</h2>
+
+<img src="images/IPAP.jpeg">
+
+<h3>Kies je beloning!</h3>
+
+<button class="button" onclick="myFunction()">Weer</button>
+<button class="button" onclick="myFunction1()">Spreuk</button>
+<button class="button" onclick="myFunction2()">Kerk</button>
+
+<p class="weer" id="demo"></p>
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Het weerbericht van vandaag is...";
+    }
+</script>
+
+<p class="spreuk" id="demo1"></p>
+<script>
+    function myFunction1() {
+        document.getElementById("demo1").innerHTML = "Uw spreuk is...";
+    }
+</script>
+
+<p class="kerk" id="demo2"></p>
+<script>
+    function myFunction2() {
+        document.getElementById("demo2").innerHTML = "De kerk is opgericht in...";
+    }
+</script>
+
+<img class="gif" src="images/tree.gif">
+
+<div class="linkjes">
+    <p> Deel het met je vrienden! </p>
+    <a href="#" class="fa fa-whatsapp"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+</div>
+
+<footer>
+    <!--   <div class="links">-->
+    <!--    <img class="linkerfoto" src="images/logo_prullenbak%20.png">-->
+    <!--   </div>-->
+    <div class="rechts">
+        <p> IPAP</p>
+        <p> Creative Media & Game Technologies </p>
+        <p> Hogeschool Rotterdam </p>
+    </div>
+
+
+
+</footer>
+
+
+</body>
+
+</head>
+</html>
+

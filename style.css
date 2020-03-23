@@ -1,0 +1,188 @@
+/* Set the background color of body to tan */
+body {
+    text-align: center;
+
+
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p.weer {
+    text-align: left;
+    margin-left: 400px;
+
+}
+
+p.spreuk {
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+p.kerk {
+    text-align: right;
+    margin-right: 380px;
+    margin-top: -20px;
+
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+
+img.gif {
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+
+/background-color: #4CAF50;/
+}
+
+li {
+    float: left;
+    border-right: 1px solid #ffffff;
+    background-color: #4CAF50;
+/margin: 0 auto;/
+/text-align: center;/
+
+}
+
+.navbar{
+    width: 100%;
+}
+.navbar.contact{
+    width:25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    width: auto;
+    text-align: center;
+    padding-left: 123px;
+    padding-right: 123px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    margin-left: 43px;
+    margin-right: 40px;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li.contact {
+    text-align: right;
+    width:25%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+}
+
+.button {border-radius: 50%;}
+
+.linkjes{
+    padding: 20px;
+}
+
+p.linkjes{
+    font-size:200px;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+// margin: 5px 2px;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 100px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp {
+    background-color:#25d366;
+    color:#FFF;
+}
+
+footer{
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+.links{
+    float:left;
+}
+
+.rechts{
+    text-align: center;
+}
+
+.linkerfoto{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
